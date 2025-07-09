@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="CSS/style.css"/>
+    <link rel="stylesheet" href="CSS/media.css"/>
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+
+    <title>Home</title>
+</head>
+<body>
+    <!--OffCanvas Mobile Menu-->
+    <div class="modal fade" id="scholarship-form" data-bs-backdrop='static'>
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Scholarship</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Get free counselling from our CLAT experts.</p>
+                    <form action="">
+                      <div class="mb-3">
+                        <label>Name</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="mb-3">
+                        <label>Email</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="mb-3">
+                        <label>Phone Number</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="mb-3">
+                        <button class="btn-danger btn w-100">Apply Scholarship</button>
+                      </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas w-75 offcanvas-start" id="mobileMenu"> 
+        <div class="offcanvas-header">
+            <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/LPT-LOGO-BLack-1.png"  width="120" alt="">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+             <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#tutorialOuter" class="nav-link">Our Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#mock-Tests" class="nav-link">Test Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#study-Material" class="nav-link">Study Material</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#our-Toppers" class="nav-link">Toppers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#media" class="nav-link">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-Us" class="nav-link">About Us</a>
+                    </li>
+
+                </ul>
+
+        </div>
+
+    </div>
+    <header class="container-fluid position-sticky top-0 shadow-lg">
+        <nav class="navbar navbar-expand-lg px-lg-5">
+            <button class="navbar-toggler" type="button" data-bs-target="#mobileMenu" data-bs-toggle="offcanvas">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="" class="navbar-brand">
+                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/LPT-LOGO-BLack-1.png"  width="120" alt="">
+            </a>
+            
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a href="#tutorialOuter" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">Our Courses</a>
+                        <ul class="dropdown-menu">
+                         <li><a class="dropdown-item" href="#">Online CLAT Coaching</a></li>
+                         <li><a class="dropdown-item" href="#">Offline CLAT Coaching</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="mock-Tests" class="nav-link">Test Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#study-Material" class="nav-link">Study Material</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#our-Toppers" class="nav-link">Toppers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#media" class="nav-link">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-Us" class="nav-link">About Us</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="d-flex gap-3" role="search">    
+                <button id="phoneIcon">
+                    <i class="fa-solid fa-phone" style="color: #F00109;" width="15px" height="15px"></i>
+                </button>
+                <button data-bs-target="#scholarship-form" data-bs-toggle="modal" class="btn btn-outline-success scholarship-btn">Apply for Scholarship</button>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid p-0">
+        <div id="bannerSlider" class="carousel slide" data-bs-interval="1000" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+               <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+               <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+               <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="3" aria-label="Slide 3"></button>
+               <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="4" aria-label="Slide 3"></button>
+               <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="5" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/12/02_Front-Banner_Desktop-scaled.jpg" class="img-fluid d-md-block d-none" alt="">
+
+                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/12/02_Front-Banner_Mob-1.jpg" class="img-fluid d-md-none d-block" alt="">
+            </div>
+             <div class="carousel-item">
+                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/12/01_Front-Banner_Desktop-scaled.jpg" class="img-fluid d-md-block d-none" alt="">
+
+                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/12/01_Front-Banner_Mob.jpg" class="img-fluid d-md-none d-block" alt=""> 
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/PATNA_WEB_BANNER_J-04-scaled.jpg" class="img-fluid d-md-block d-none" alt="">
+
+                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/PATNA_WEB_BANNER_J-08.jpg" class="img-fluid d-md-none d-block" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/PATNA_WEB_BANNER_J-01-scaled.jpg" class="img-fluid d-md-block d-none" alt="">
+
+                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/PATNA_WEB_BANNER_J-05.jpg" class="img-fluid d-md-none d-block" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/04/PATNA_WEB_BANNER_J-03-scaled-1.webp" class="img-fluid d-md-block d-none" alt="">
+
+                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/04/PATNA_WEB_BANNER_J-07-1.webp" class="img-fluid d-md-none d-block" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/PATNA_WEB_BANNER_-scaled.jpg" class="img-fluid d-md-block d-none" alt="">
+
+                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/PATNA_WEB_BANNER.jpg" class="img-fluid d-md-none d-block" alt="">
+            </div>
+            
+        </div>
+
+        </div>
+    </section>
+
+    <section class="container-fluid p-5" id="about-Us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-12 mt-5" id="clatHeading">
+                    <h1>#1 CLAT Coaching in Patna</h1>
+                    <p>Make your NLU dreams come true with the best CLAT coaching in Patna (Bihar).</p>
+                    <div class="row" id="medalIcon">
+                        <div class="col-lg-2 col-3">
+                            <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/Group-101.svg" alt="" class="img-fluid">
+
+                        </div>
+                        <div class="col-lg-10 col-9" id="medalText">
+                            <h4>23 Years of CLAT Excellence </h4>
+                                <p class="mb-0">For over two decades, we’ve been the architect of success for law aspirants in India.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-4" id="medalIcon">
+                        <div class="col-lg-2 col-3">
+                            <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/Group-103.svg" alt="" class="img-fluid">
+
+                        </div>
+                        <div class="col-lg-10 col-9" id="medalText">
+                            <h4>1000+ NLU Selections Per Year</h4>
+                                <p>We celebrate 500+ NLU selections every year, with 1310+ selections in CLAT 2025.</p>
+                        </div>  
+                    </div>
+                    <div class="row row-cols-3 p-4">
+                        <div class="col-lg-4 p-0">
+                            <div class="text-center border border-1 p-1" id="clat2025">
+                            <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/CLAT-2024.svg" alt="" class="img-fluid">
+                            <h4>CLAT 2025</h4>
+                            <p>38+ Under 100 <br>AIR</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 p-0">
+                            <div class="text-center border border-1 p-1" id="clat2025">
+                            <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/CLAT-2024.svg" alt="" class="img-fluid">
+                            <h4>CLAT 2025</h4>
+                            <p>300+ Under <br>1000 AIR</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 p-0">
+                            <div class="text-center border border-1 p-1" id="clat2025">
+                            <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/CLAT-2024.svg" alt="" class="img-fluid">
+                            <h4>CLAT 2025</h4>
+                            <p>1310+ <br>Selections</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+                <div class="col-lg-7 toppersDesktop">
+                    
+                        <div class="row row-cols-4">
+                            <div class="col-lg-3 col-sm-6 p-0">
+                                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/JAI-Bohara-1.jpg" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="col-lg-3 col-sm-6" id="TopperRed">
+                                <h2>JAI</h2>
+                                <p>AIR 1 - 2024</p>
+                    
+                            </div>
+                            <div class="col-lg-3 col-sm-6 p-0">
+                                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/Rishabh-Shivani.jpg" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="col-lg-3 col-sm-6" id="TopperPink1">
+                                <h2>RISHABH</h2>
+                                <p>AIR 1 - 2022</p>
+                            </div>
+                        </div>
+                        <div class="row row-cols-4">
+                            <div class="col-lg-3" id="TopperPink2">
+                                <h2>SAUMYA</h2>
+                                <p>AIR 1 - 2019</p>
+                            </div>
+                            <div class="col-lg-3 p-0">
+                                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/Saumya-Singh-1.jpg" alt=""
+                                    class="img-fluid w-100">
+                            </div>
+                            <div class="col-lg-3" id="TopperRed">
+                                <h2>RAJAT</h2>
+                                <p>AIR 1 - 2017</p>
+                            </div>
+                            <div class="col-lg-3 p-0">
+                                <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/Rajat-2.jpg" alt=""
+                                    class="img-fluid w-100">
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="col-lg-7 toppersResponsive">
+                    <div class="owl-carousel owl-theme" id="toppers-Res">
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6 p-0">
+                                    <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/JAI-Bohara-1.jpg" alt=""
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="col-6" id="TopperRed">
+                                    <h2>JAI</h2>
+                                    <p>AIR 1 - 2024</p>
+                            
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6 p-0">
+                                    <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/Rishabh-Shivani.jpg" alt=""
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="col-6" id="TopperPink1">
+                                    <h2>RISHABH</h2>
+                                    <p>AIR 1 - 2022</p>
+                                </div>
+    
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6" id="TopperPink2">
+                                    <h2>SAUMYA</h2>
+                                    <p>AIR 1 - 2019</p>
+                                </div>
+                                <div class="col-6 p-0">
+                                    <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/Saumya-Singh-1.jpg" alt=""
+                                        class="img-fluid w-100">
+                                </div>
+                            
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6" id="TopperRed">
+                                    <h2>RAJAT</h2>
+                                    <p>AIR 1 - 2017</p>
+                                </div>
+                                <div class="col-6 p-0">
+                                    <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/Rajat-2.jpg" alt=""
+                                        class="img-fluid w-100">
+                                </div>
+                            
+                            </div>
+
+                        </div>
+    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container-fluid p-4" id="tutorialOuter">
+        <div class="container mt-4" id="tutorialMain">
+            <h1 class="text-center">CLAT Coaching Programs by Law Prep Tutorial Patna</h1>
+            <p class="text-center">Join the country’s best CLAT coaching institute!</p>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-12 mt-2" >
+                    <div class="shadow-lg">
+                        <div class="img-scale">
+                        <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/offline-class.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="p-3" id="tutorialText">
+                            <h4>CLAT Classroom Coaching</h4>
+                            <p>Join the premier classroom-based CLAT coaching in Patna by Law Prep Tutorial.</p>
+                            <button>View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 mt-2" >
+                    <div class="shadow-lg">
+                        <div class="img-scale">
+                        <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/online-classs.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="p-3" id="tutorialText">
+                            <h4>CLAT Online Coaching</h4>
+                            <p>Join from anywhere and get live CLAT coaching. Top-class preparation for ever.</p>
+                            <button>View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 mt-2" >
+                    <div class="shadow-lg">
+                        <div class="img-scale">
+                        <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/crash-course.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="p-3" id="tutorialText">
+                            <h4>CLAT Crash Course</h4>
+                            <p>Fast-track your CLAT preparation with our intensive & regorous crash course.</p>
+                            <button>View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container-fluid scholarship-main p-4">
+    
+        <div class="scholarship-bg">
+        
+        </div>
+        <div class="scholarship-text">
+            <h1>Scholarship <br>
+                Test</h1>
+            <p>Apply for the biggest CLAT scholarship test in India and get up to 100% scholarship on 2026 and 2027 coaching!
+            </p>
+            <button>Apply Now!</button>
+        </div>
+        <div class="scholarship-text-Res">
+            <h1>Scholarship <br>
+                Test</h1>
+            <p>Apply for the biggest CLAT scholarship <br>
+                test in India and get up to 100% scholarship <br>
+                on 2026 and 2027 coaching!</p>
+            <button>Apply Now!</button>
+        </div>
+        <div class="scholarship-img">
+            <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/Rectangle-817.jpg" alt=""
+                class="img-fluid">
+        
+        </div>
+   </section>
+  
+   <section class="container-fluid p-4" id="mock-Tests">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 clatPrep-heading">
+                 <h2>CLAT Preparation Resources</h2>
+                 <p>Comprehensive and proven resources for every CLAT aspirant!</p>
+            </div>
+            <div class="col-lg-2 clatPrep-btn">
+                <button>Explore More</button>
+            </div>
+        </div>
+
+        <div  class="row mt-4 clatPrep-Outer">
+            <div class="col-lg-4 col-sm-12 mt-2">
+                <div class="card" style="width: 22rem;">
+                    <img src="Images/Basic-CLAT-Test-Series-2025.jpg" class="card-img-top" alt="...">
+                    <div class="card-body clatPrep-content p-4">
+                        <div class="row mt-4">
+                            <div class="col-6 clatPrep-innerMain">
+                            <h6>10 Mock Tests</h6>
+                            </div>
+                            <div class="col-1 p-0 clatPrep-innerImg">
+                                <i class="fa-regular fa-clipboard"></i>
+                            </div>
+                            <div class="col-5 p-0 clatPrep-innerhead">
+                                <p>400+ Topic Tests</p>
+                            </div>
+                        </div>
+                        <h2 style="font-size: 20px; color: white; font-weight: 600;">Basic CLAT Test Series</h2>
+                        <p style="color: white; font-size: 14px; margin-top: 10px;">Expertly-crafted mock test series for CLAT 2027 exam.</p>
+                        <button class="rounded-circle" style="padding: 6px 12px; border: none;"><i class="fa-solid fa-arrow-right" style="color: #F00109;"></i></button>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 mt-2">
+                 <div class="card clatPrep-img1" style="width: 22rem;">
+                    <img src="Images/15-CLAT-Mock-Test-PDFs.jpg" class="card-img-top" alt="...">
+                    <div class="card-body clatPrep-content p-4">
+                        <div class="row mt-4">
+                            <div class="col-6 clatPrep-innerMain">
+                            <h6>15 Mock Tests</h6>
+                            </div>
+                            <div class="col-1 p-0 clatPrep-innerImg">
+                                <i class="fa-regular fa-clipboard"></i>
+                            </div>
+                            <div class="col-5 p-0 clatPrep-innerhead">
+                                <p>400+ Topic Tests</p>
+                            </div>
+                        </div>
+                        <h2 style="font-size: 20px; color: white; font-weight: 600;">15 CLAT Mock Test PDFs</h2>
+                        <p style="color: white; font-size: 14px; margin-top: 10px;">Best for your long-term CLAT preparation strategy.</p>
+                        <button class="rounded-circle" style="padding: 6px 12px; border: none;"><i class="fa-solid fa-arrow-right" style="color: #F00109;"></i></button>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 mt-2">
+                 <div class="card clatPrep-img1" style="width: 22rem;">
+                    <img src="Images/Essential-CLAT-Test-Series-2025.jpg" class="card-img-top" alt="...">
+                    <div class="card-body clatPrep-content p-4">
+                        <div class="row mt-4">
+                            <div class="col-6 clatPrep-innerMain">
+                            <h6>20 Mock Tests</h6>
+                            </div>
+                            <div class="col-1 p-0 clatPrep-innerImg">
+                                <i class="fa-regular fa-clipboard"></i>
+                            </div>
+                            <div class="col-5 p-0 clatPrep-innerhead">
+                                <p>400+ Topic Tests</p>
+                            </div>
+                        </div>
+                        <h2 style="font-size: 20px; color: white; font-weight: 600;">Essential CLAT Mock Tests</h2>
+                        <p style="color: white; font-size: 14px; margin-top: 10px;">Proven study material to give wings to your CLAT preparation.</p>
+                        <button class="rounded-circle" style="padding: 6px 12px; border: none;"><i class="fa-solid fa-arrow-right" style="color: #F00109;"></i></button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+   </section>
+
+   <section class="container-fluid p-5">
+    
+        <div class="row">
+            <div class="col-lg-6 col-12 chooseUs-img">
+                <div class="p-5 m-4 chooseUs-text">
+                    <h1>
+                        Choose Us for CLAT Coaching in Patna
+                    </h1>
+                    <p class="mt-3">Law Prep Tutorial is the top choice of law aspirants for CLAT coaching in Patna.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 studyMaterial">
+                <div class="container pe-0">
+                <div class="row">
+                    <div class="col-6 ">
+                        <div class="border border-1">
+                            <img src="Images/First-rate-Study-Material.jpg" alt="" class="img-fluid">
+                            <div>
+                                <h2 class="fs-4 p-3 text-center">Exclusive Study Material</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="border border-1">
+                            <img src="Images/Student-Performance-Analysis.jpg" alt="" class="img-fluid">
+                            <div>
+                                <h2 class="fs-4 p-3 text-center">Study Performance Analysis</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+                <div class="container mt-4 pe-0">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="border border-1">
+                            <img src="Images/Most-Experienced-Teachers.jpg" alt="" class="img-fluid">
+                            <div>
+                                <h2 class="fs-4 p-3 text-center">Most Experienced Teachers</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="border border-1">
+                            <img src="Images/360-Guidance-Preparation.jpg" alt="" class="img-fluid">
+                            <div>
+                                <h2 class="fs-4 p-3 text-center">360° Guidance & Preparation</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+            <div class="col-12 mt-3 studyMaterial-Res">
+                <div class="owl-carousel owl-theme" id="studyMaterial-Responsive">
+                    <div class="item">
+                        <div class="border border-1">
+                            <img src="Images/First-rate-Study-Material.jpg" alt="" class="img-fluid">
+                            <div>
+                                <h2 class="fs-4 p-3 text-center">Exclusive Study Material</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="border border-1">
+                            <img src="Images/Student-Performance-Analysis.jpg" alt="" class="img-fluid">
+                            <div>
+                                <h2 class="fs-4 p-3 text-center">Study Performance Analysis</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="border border-1">
+                            <img src="Images/Most-Experienced-Teachers.jpg" alt="" class="img-fluid">
+                            <div>
+                                <h2 class="fs-4 p-3 text-center">Most Experienced Teachers</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="border border-1">
+                            <img src="Images/360-Guidance-Preparation.jpg" alt="" class="img-fluid">
+                            <div>
+                                <h2 class="fs-4 p-3 text-center">360° Guidance & Preparation</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+   </section>
+
+   <section class="container-fluid p-5" style="background-color: #FDEEEB;" id="our-Toppers">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12 ourToppers-text">
+                <h1>Our CLAT 2025 Toppers: <br>38+ Students in Top <br>100</h1>
+                <p>At Law Prep Tutorial Patna, we transform your <br>dreams into reality!</p>
+
+                <button>View All</button>
+            </div>
+            <div class="col-12 ourToppers-textRes">
+                <h1>Our CLAT 2025 Toppers: 38+ Students in Top 100</h1>
+                <p>At Law Prep Tutorial Patna, we transform your dreams into reality!</p>
+            </div>
+            <div class="col-lg-6 col-12">
+               
+                <div class="row">
+                    <div class="col-6">
+                        <img src="Images/01-YASH-JARWAL_AIR-3_STARMARK-scaled.jpg" alt="" class="img-fluid">
+                        <div class="bg-white p-3 text-center">
+                        <h2 class="fs-5 fw-semibold mb-0">Yash*</h2> 
+                        <p class="fs-6 fw-semibold mb-0">AIR 3 - 2025</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img src="Images/02-Chitrangad-Dhingra_AIR-4_STARMARK-scaled.jpg" alt="" class="img-fluid">
+                        <div class="bg-white p-3 text-center">
+                        <h2 class="fs-5 fw-semibold mb-0">Chitrangad*</h2> 
+                        <p class="fs-6 fw-semibold mb-0">AIR 4 - 2025</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-6">
+                <img src="Images/03-Utkarsh-Tripathi_AIR-5_STARMARK-scaled.jpg" alt="" class="img-fluid">
+                <div class="bg-white p-3 text-center">
+                    <h2 class="fs-5 fw-semibold mb-0">Utkarsh*</h2>
+                    <p class="fs-6 fw-semibold mb-0">AIR 5 - 2025</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <img src="Images/04-Priyank-Sinha_AIR-6_STARMARK-scaled.jpg" alt="" class="img-fluid">
+                <div class="bg-white p-3 text-center">
+                    <h2 class="fs-5 fw-semibold mb-0">Priyank*</h2>
+                    <p class="fs-6 fw-semibold mb-0">AIR 6 - 2025</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <img src="Images/05-Shantanu-Dwivedi_AIR-8-scaled.jpg" alt="" class="img-fluid">
+                <div class="bg-white p-3 text-center">
+                    <h2 class="fs-5 fw-semibold mb-0">Shantanu*</h2>
+                    <p class="fs-6 fw-semibold mb-0">AIR 8 - 2025</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <img src="Images/06-Vidit-Rawat_AIR-9-scaled.jpg" alt="" class="img-fluid">
+                <div class="bg-white p-3 text-center">
+                    <h2 class="fs-5 fw-semibold mb-0">Vidit*</h2>
+                    <p class="fs-6 fw-semibold mb-0">AIR 9 - 2025</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   </section>
+
+   <section class="container-fluid p-5">
+    <div class="container">
+        <h2 class="fw-bold fs-1">Student Testimonials</h2>
+        <p class="mt-2">Hear yourself what students are saying about our CLAT coaching <br>institute in Patna!</p>
+    </div>
+        <div class="row mt-4">
+            <div class="col-lg-6 col-12 border border-1 p-0">
+                <iframe width="100%" height="380" src="https://www.youtube.com/embed/X1eAaL1t8Ds?si=RjJdtkINXwFYBwC2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="text-center toppers-text">
+                <h6 class="fw-light">"Choosing LPT for CLAT prep was a great move. Instructors were knowledgeable, approachable, and supportive, contributing significantly to my success in the exam."</h6>
+                <h5 class="mt-3">JAI</h5>
+                <p class="fw-light">AIR 1 - CLAT 2024</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="p-3 pt-0">
+                            <iframe width="300" height="180" src="https://www.youtube.com/embed/sSUXcubbwY0?si=VLWgxlnZm_2buI04"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 studentYT-description pt-0">
+                        <h5>For CLAT coaching that cares and equips you for success, choose LPT Patna without doubt.</h5>
+                        <br>
+                        <h6 class="mb-0 mt-2">Jigyasa</h6>
+                        <p>AIR 9 - CLAT 2024</p>
+                
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="p-3 pt-0">
+                            <iframe width="300" height="180" src="https://www.youtube.com/embed/egGYwxRU1NA?si=LbTIcCOxtgCYKuMW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 studentYT-description pt-0">
+                        <h5>Initially hesitant, but with teacher guidance, and feedback, I've excelled. Thanks, Abhishek Sir and LPT Patna.</h5>
+                        
+                        <h6 class="mb-0 mt-3">Hrishita</h6>
+                        <p>AIR 48 - CLAT 2022</p>
+                
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="p-3 pt-0">
+                            <iframe width="300" height="180" src="https://www.youtube.com/embed/DokINFXeeTM?si=aFPZODEHJwX5MZ6R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 studentYT-description pt-0">
+                        <h5>LPT Patna teachers work tirelessly to clarify doubts, ensuring your comprehension and success.</h5>
+                        
+                        <h6 class="mb-0 mt-3">Garima Banka</h6>
+                        <p>AIR 21 - CLAT 2021</p>
+                
+                    </div>
+                </div>
+               
+
+            </div>
+
+        </div>
+
+    
+
+   </section>
+
+   <section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="owl-carousel owl-theme" id="tesSlider">
+                     <div class="item shadow-lg">
+                        <div class="p-4">
+                        <p>  
+                          I thank Law Prep Tutorial, Patna for making my journey as a CLAT aspirant a remarkable one. The learning and practice materials, mock tests and authentic guidance of mentors was my secret behind cracking CLAT. My sincere thanks for helping me to get into my dream NLU.
+                        </p>
+                        <div class="d-flex gap-3">
+                            <div>
+                            <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/charvi.jpg" alt="" class="rounded-circle">
+                            </div>
+                            <div>
+                                <h5>Charvi Singh</h5>
+                                <p>2 Year Programme</p>
+                            </div>
+                        </div>
+                        
+                     </div>
+                     </div>
+                     <div class="item">
+                        <div class="p-4 shadow-lg">
+                        <p>
+                           Joining LPT for my CLAT prep was a great decision. The faculty was knowledgeable, friendly, and supportive. The best part about the study materials was the mocks, which were tougher than the actual exam. Analyzing my mock exams, I always doubted myself, but in the end, I made it.
+                        </p>
+                        <div class="d-flex gap-3">
+                            <div>
+                            <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/ayushi.jpg" alt="" class="rounded-circle">
+                            </div>
+                            <div>
+                                <h5>Ayushi Kumari</h5>
+                                <p>1 Year Programme</p>
+                            </div>
+                        </div>
+                        
+                     </div>
+                     </div>
+                     <div class="item">
+                        <div class="p-4 shadow-lg">
+                        <p>
+                          I have cleared CLAT and AILET 2024 and secured a seat in the prestigious National Law University (NLU) of India. I owe my success to the foundation course at Law Prep Tutorial, Patna which helped me prepare for the law entrance exams in a systematic and effective way.
+                        </p>
+                        <div class="d-flex gap-3">
+                            <div>
+                            <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/ayush.png" alt="" class="rounded-circle">
+                            </div>
+                            <div>
+                                <h5>Ayush Raj</h5>
+                                <p>2 Year Programme</p>
+                            </div>
+                        </div>
+                        
+                     </div>
+                     </div>
+                     <div class="item">
+                        <div class="p-4 shadow-lg">
+                        <p>
+                          I am thankful to Abhishek sir and the entire LPT Patna team who supported me throughout my CLAT preparation journey. The guidance of the faculty and mentors helped me to crack CLAT with a high rank, enabling me to enroll myself in the top-notch NLU (NLSIU Bangalore).
+                        </p>
+                        <div class="d-flex gap-3">
+                            <div>
+                            <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/trisha-sharma.jpg" alt="" class="rounded-circle">
+                            </div>
+                            <div>
+                                <h5>Trisha Sharma</h5>
+                                <p>2 Year Programme</p>
+                            </div>
+                        </div>
+                        
+                     </div>
+                     </div>
+                     <div class="item">
+                        <div class="p-4 shadow-lg">
+                        <p>
+                          Big thanks to Law Prep Tutorial, Patna, especially to Abhishek sir, for giving me access to an excellent team of teachers. Every teacher, particularly Kumar sir, made my preparation journey much smoother. Because of LPT Patna, I got into my dream college. I totally recommend LPT Patna.
+                        </p>
+                        <div class="d-flex gap-3">
+                            <div>
+                            <img src="https://www.lawpreptutorialpatna.com/wp-content/uploads/2024/03/akansha.jpg" alt="" class="rounded-circle">
+                            </div>
+                            <div>
+                                <h5>Akansha</h5>
+                                <p>2 Year Programme</p>
+                            </div>
+                        </div>
+                        
+                     </div>
+                     </div>
+                        
+                     </div>
+                    
+               </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+   </section>
+
+   <section class="container-fluid newspaper-headlines" id="media">
+    <div class="newspaper-headlines-text">
+     <h1 class="text-center fw-bold">Law Prep Tutorial Making Headlines</h1>
+     <p class="text-center">Law Prep Tutorial has been featured by top publications and media <br>portals, showcasing our excellence in legal education.</p> 
+     </div>
+     <div class="container newspaper-headlines-img">
+     <div class="row">
+        <div class="col">
+            <img src="Images/hindustan.png" alt="" class="img-fluid">
+        </div>
+        <div class="col">
+            <img src="Images/1-6.png" alt="" class="img-fluid">
+        </div>
+        <div class="col">
+            <img src="Images/1-5.png" alt="" class="img-fluid">
+        </div>
+        <div class="col">
+            <img src="Images/1-4.png" alt="" class="img-fluid">
+        </div>
+        <div class="col">
+            <img src="Images/1-3.png" alt="" class="img-fluid">
+        </div>
+        <div class="col">
+            <img src="Images/1-2.png" alt="" class="img-fluid">
+        </div>
+        <div class="col">
+            <img src="Images/1-1.png" alt="" class="img-fluid">
+        </div>
+
+     </div>
+     </div>
+     <div class="container newspaper-headlines-img-Res">
+     <div class="row p-3">
+        <div class="col-6 p-3">
+            <img src="Images/hindustan.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-6 p-3">
+            <img src="Images/1-6.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-6 p-3">
+            <img src="Images/1-5.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-6 p-3">
+            <img src="Images/1-4.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-6 p-3">
+            <img src="Images/1-3.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-6 p-3">
+            <img src="Images/1-2.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-6 p-3">
+            <img src="Images/1-1.png" alt="" class="img-fluid">
+        </div>
+
+     </div>
+     </div>
+
+   </section>
+
+   <section class="container-fluid p-4" id="blog">
+        <div class="container mt-4" id="tutorialMain">
+            <h1 class="text-center">Latest Insights From Blog</h1>
+            <p class="text-center">Valuable resources by Law Prep Tutorial Patna for your law entrance preparation</p>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-12 mt-2" >
+                    <div class="card shadow-lg">
+                        <div class="img-scale">
+                        <img src="Images/news3.png" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body" id="tutorialText">
+                            <h5 class="card-title fw-bold">CLAT Exam Pattern 2025: Marks, Questions, Changes</h5>
+                            <p class="card-text">If you are a law aspirant, you are probably already familiar with what is CLAT...</p>
+                            <a href="https://www.lawpreptutorialpatna.com/clat-exam-pattern/" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 mt-2" >
+                    <div class="card shadow-lg">
+                        <div class="img-scale">
+                        <img src="Images/news1.png" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body" id="tutorialText">
+                            <h5 class="card-title fw-bold">Law Prep Tutorial Dominates CLAT 2024 Results From AIR 1...</h5>
+                            <p class="card-text">Highlights: Law Prep Tutorial’s student Jai Bohara achieved the AIR 1 in CLAT 2024...</p>
+                            <a href="https://www.lawpreptutorialpatna.com/law-prep-tutorial-dominates-clat-2024-results/" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 mt-2" >
+                    <div class="card shadow-lg">
+                        <div class="img-scale">
+                        <img src="Images/news2.png" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body" id="tutorialText">
+                            <h5 class="card-title fw-bold">CLAT Exam is for What Purpose? Why Give CLAT?</h5>
+                            <p class="card-text">The legal education in India is a dynamic field, where the CLAT Common Law...</p>
+                            <a href="https://www.lawpreptutorialpatna.com/clat-exam-purpose/" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tutorialText" class="text-center mt-5"><a href="https://www.lawpreptutorialpatna.com/blog/" class="btn btn-primary">View All Blogs</a></div>
+
+        </div>
+
+    </section>
+    <section class="container-fluid py-5 counselling-section" id="free-Counselling">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <h2 class="fw-bold">Have Questions About CLAT <br>
+                        Exam or Coaching?</h2>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <p>Our team at Law Prep Tutorial, the best CLAT institute in Patna, is here to clear your doubts related to coaching, a career in law, a scholarship, or anything that you are confused about.</p>
+                </div>
+            </div>
+        </div>
+        <div class="counselling-outer">
+          <div class="counselling-mid">
+                <div class="counselling-text light-text-color ">
+                    <h1>Book Free Counselling</h1>
+                </div>
+               
+          </div> 
+          <div class="counselling-img">
+             <img src="Images/Book-Free-Counselling.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+          
+        <div class="form-section">
+        
+            <form>
+                <div>
+                    <h2 class="fw-bold">Book Free Expert Counselling</h2>
+                    <p class="fs-6">Get free counselling from our CLAT experts.</p>
+                </div>
+                <div class="counselling-form-text mt-4 mb-4">
+                    <input type="text" placeholder="Enter Name *">
+                </div>
+                <div class="counselling-form-text mb-4">
+                    <input type="tel" id="phone" placeholder="Enter Mobile Number *">
+                </div>
+                <div class="counselling-form-text mb-4">
+                    <input type="email" placeholder="Enter Email Address *">
+                </div>
+                <div class="counselling-form-text mb-4">
+                    <button>Book Now</button>
+                </div>
+
+            </form>
+        </div>
+            
+    </section>
+    <section class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 events-img">
+                    <div class="events-text">
+                        <h1>Events & <br> Activities </h1>
+                        <p>Get a glimpse into  the vibrant life at <br> Law Prep Tutorial Patna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 p-0 border border-1">
+                    <div class="row p-0">
+                        <div class="col-6 pe-0">
+                            <img src="Images/Rectangle-873.jpg" alt="" class="img-fluid">
+                        </div>
+                         <div class="col-6 ps-0">
+                            <img src="Images/Rectangle-874.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6 pe-0">
+                            <img src="Images/Rectangle-875.jpg" alt="" class="img-fluid">
+                        </div>
+                         <div class="col-6 ps-0">
+                            <img src="Images/Rectangle-876.jpg" alt="" class="img-fluid">
+                        </div>
+
+                    </div>
+                    
+                        
+
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container-fluid py-5" id="study-Material">
+        <div class="container">
+            <h1 class="text-center fw-bold">Free Resources for CLAT Aspirants</h1>
+            <p class="text-center">Get free acess to the best CLAT study material!</p>
+            <div class="row">
+             <div class="col-lg-3 col-12 resources-main">
+                <div class="card resources-mid">
+                    <div class="img-scale">
+                    <img src="Images/CLAT-Mock-Test.jpg" class="card-img-top img-fluid" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h6 class="fw-bold pb-0">CLAT Mock Test</h6>
+                        <p style="font-size: 14px; color: gray;">Based on latest exam pattern</p>
+                    </div>
+                    <div class="resources-Icon">
+                        <img src="Images/CLAT-Mock-Test.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12 resources-main">
+                <div class="card resources-mid">
+                    <div class="img-scale">
+                    <img src="Images/CLAT-Books.jpg" class="card-img-top img-fluid" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h6 class="fw-bold">CLAT Books</h6>
+                        <p style="font-size: 14px; color: gray;">Choose the right books</p>
+                    </div>
+                    <div class="resources-Icon">
+                        <img src="Images/CLAT-Books.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12 resources-main">
+                <div class="card resources-mid">
+                    <div class="img-scale">
+                    <img src="Images/Previous-Year-Papers-1.jpg" class="card-img-top img-fluid" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h6 class="fw-bold">Previous Year Papers</h6>
+                        <p style="font-size: 14px; color: gray;">Free PDFs of past papers</p>
+                    </div>
+                    <div class="resources-Icon">
+                        <img src="Images/Previous-Year-Papers.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12 resources-main">
+                <div class="card resources-mid">
+                    <div class="img-scale">
+                    <img src="Images/CLAT-Exam-Details.jpg" class="card-img-top img-fluid" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h6 class="fw-bold">CLAT Exam Details</h6>
+                        <p style="font-size: 14px; color: gray;">Must-know for every aspirant</p>
+                    </div>
+                    <div class="resources-Icon">
+                        <img src="Images/CLAT-Exam-Details.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container-fluid">
+        <div class="container">
+            <img src="Images/telegram.jpg" alt="" class="telegram-img img-fluid">
+            <img src="Images/telegram_m.jpg" alt="" class="telegram-img-Res img-fluid">
+        </div>
+
+    </section>
+
+    <footer class="container-fluid py-5" style="background-color: #292933; color: white;">
+        <div class="container footer-res">
+            <div class="row mt-3">
+                <div class="col-lg-3 col-12">
+                    <img src="Images/Logo-2-1.png" alt="" width="150" class="img-fluid">
+                    <p class="mt-3" style="font-size: 14px;">Law Prep Tutorial is India’s best CLAT coaching institute, helping aspirants achieve their dreams of graduating from the top NLUs in the country.</p>
+                    <div class="row">
+                        <div class="col-2 rounded-circle p-1 ms-4 text-center bg-white">
+                            <img src="Images/fb.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-2 rounded-circle p-1 ms-2 text-center bg-white">
+                            <img src="Images/tw.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-2 rounded-circle p-1 ms-2 text-center bg-white">
+                            <img src="Images/ins.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-2 rounded-circle p-1 ms-2 text-center bg-white">
+                            <img src="Images/link.svg" alt="" class="img-fluid">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-5 col-12 imp-links">
+                    <h6 class="fw-bold ms-4">Important Links</h6>
+                  <div class="row">
+                    <div class="col-6 mt-2">
+                    <ul style="font-size: 14px;">
+                        <li><a href="#about-Us">About Us</a> </li>
+                        <li class="pt-2"><a href="#our-Toppers">Toppers</a></li>
+                        <li class="pt-2"><a href="#free-Counselling">Free Counselling</a></li>
+                        <li class="pt-2"><a href="#blog">Blog</a></li>
+                        <li class="pt-2"><a href="#tutorialOuter">Online Crash Course</a></li>
+                    </ul>
+                    </div>
+                    <div class="col-6 mt-2">
+                    <ul style="font-size: 14px;">
+                        <li class="pt-2"><a href="#contact-Us">Contact</a></li>
+                        <li class="pt-2"><a href="#mock-Tests">Online Mock Test</a></li>
+                        <li class="pt-2"><a href="#media">Media</a></li>
+                        <li class="pt-2"><a href="">Book Demo Class</a></li>
+                        <li class="pt-2"><a href="#tutorialOuter">Offline Crash Course</a></li>
+                    </ul>
+                    </div>
+                  </div>
+
+                </div>
+                
+                <div class="col-lg-4 col-12 contact-Us" id="contact-Us">
+                    <h6 class="ms-3 fw-bold">Contact Us</h6>
+                    <div class="row ms-3">
+                        <div class="col-1 rounded bg-gradient">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="col-11">
+                            <h6 style="font-size: 14px;"><span class="fw-bold">BORING ROAD CAMPUS:</span> AG Complex, Beside Bata Showroom, East Boring Canal Road, Patna - 800001</h6>
+                        </div>
+                    </div>
+                    <div class="row ms-3 mt-4">
+                        <div class="col-1 rounded bg-gradient">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="col-11">
+                            <h6 style="font-size: 14px;"><span class="fw-bold">KANKARBAGH CAMPUS:</span> Kashyap Shailja Tower, Kankarbagh Main Road, Patna - 800020</h6>
+                        </div>
+                    </div>
+                    <div class="row ms-3 mt-4">
+                        <div class="col-1 bg-gradient rounded">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="col-11">
+                            <h6 style="font-size: 14px;"><span class="fw-bold">MUZAFFARPUR CAMPUS:</span> Behind Central Bank of India, Gannipur Road, Kalambagh Chowk, Muzaffarpur, Bihar - 842001</h6>
+                        </div>
+                    </div>
+                    <div class="row ms-3 mt-4">
+                        <div class="col-1 bg-gradient rounded">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="col-11">
+                            <h6 style="font-size: 14px;">(+91) 80-5542-5542</h6>
+                        </div>
+                    </div>
+                    <div class="row ms-3 mt-4">
+                        <div class="col-1 bg-gradient rounded">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="col-11">
+                            <h6 style="font-size: 14px;">support@lawpreptutorialpatna.com</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            
+
+        </div>
+        <hr>
+            <p class="text-center" style="font-size: 14px;">© Copyright 2024 All Rights Reserved.</p>
+        
+
+    </footer>
+    
+    
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+    $('#tesSlider').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
+
+<script>
+    $('#toppers-Res').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+    }
+})
+</script>
+
+<script>
+    $('#studyMaterial-Responsive').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+    }
+})
+</script>
+
+<script>
+  let phoneInput=document.querySelector("#phone");
+
+  let iti = window.intlTelInput(phoneInput, {
+    initialCountry: "in",
+    separateDialCode: true,
+    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
+  });
+
+  phoneInput.addEventListener("blur", function () {
+    let fullNumber = iti.getNumber();
+    console.log("Full number with country code:", fullNumber);
+  });
+</script>
+</html>
