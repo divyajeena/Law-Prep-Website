@@ -1,0 +1,156 @@
+@media only screen and (min-width:0px) and (max-width:575px) {
+    .navbar-toggler {
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .navbar-brand img {
+        width: 80px;
+    }
+
+    .scholarship-text {
+        display: none;
+    }
+
+    .scholarship-text-Res {
+        display: block;
+    }
+
+    .scholarship-btn {
+        background: #f00109;
+        padding: 5px 6px;
+        border: 1px solid #f00109;
+        color: white;
+        font-size: 13px;
+        transition: 0.3s; 
+    }
+
+    .chooseUs-img {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .chooseUs-text {
+        padding: 0px !important; 
+        margin-top: 30px !important;
+    }
+
+    .ourToppers-text {
+        display: none;
+    }
+
+    .ourToppers-textRes {
+        display: block;
+        text-align: center;
+    }
+
+    .ourToppers-textRes h1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .ourToppers-textRes p{
+        font-size: 14px;
+    }
+
+    .counselling-mid {
+        display: none;
+    }
+
+    .counselling-img {
+        width: 100%;
+        top: 20%;
+    }
+
+    .counselling-outer {
+        display: none;
+    }
+
+    form {
+        width: 350px;
+        left: 5%;
+        top: 98%;
+    }
+
+    .counselling-form-text input {
+        width: 92%;
+        padding: 6px;
+    }
+
+    .iti {
+       width: 92%;
+    }
+
+    .counselling-form-text button {
+        width: 92%;
+        padding: 6px;
+    }
+
+    .events-img {
+        width: 100%;
+    }
+
+    .events-img {
+        margin-top: 500px;
+        padding-left: 0px;
+    }
+
+    .resources-main {
+        padding: 30px;
+
+    }
+
+    .telegram-img {
+        display: none;
+    }
+
+    .telegram-img-Res {
+        display: block;
+        padding: 20px;
+    }
+
+    .footer-res {
+        padding: 40px;
+    }
+
+    .imp-links {
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    .contact-Us {
+        margin-top: 20px;
+    }
+
+    .toppersDesktop {
+        display: none;
+    }
+
+    .toppersResponsive {
+        display: block;
+    }
+   
+    .studyMaterial {
+        display: none;
+    }
+
+    .studyMaterial-Res {
+        display: block; 
+    }
+
+    .newspaper-headlines-img {
+        display: none;
+    }
+
+    .newspaper-headlines-img-Res {
+        display: block;
+    }
+
+    .newspaper-headlines {
+        height: 120vh;
+    }
+
+    .newspaper-headlines-text {
+    padding-top: 40px !important;
+    }
+}
